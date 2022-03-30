@@ -47,7 +47,7 @@ function paymentAmount() public returns(uint){
  
 //Amount is paid to smart contract
 function payAmount() payable public {
-require(msg.value==tx.gasprice + price,"Click netAmount to check the exact amount to be paid");
+require(msg.value==tx.gasprice + price,"Click paymentAmount to check the exact amount to be paid");
 
 }
 
